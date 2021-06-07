@@ -1,50 +1,311 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>THE Excellence GROUP</title>
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="./vendors/css/fluid.css">
-<link rel="stylesheet" type="text/css" href="./resources/css/style.css">
-<style>
-.logo {
-  border-radius: 50%;
-  margin: 13px;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE Excellence GROUP</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/contact.css"> -->
+
 </head>
 <body>
- 
+
+
+<!-- header section starts  -->
+
 <header>
 
-<nav>
-	<img src="./resources/img/logo2.jpg" alt="Digisolve Logo" class="logo">
-	<ul class="main-nav">
-		<li><a href="">Home</a></li>
-		<li><a href="contact.html" target="_blank">Contact</a></li>
-		<li><a href="about.html" target="_blank">About</a></li>
-	</ul>
+<a href="#" class="logo"><i class="fas fa-chalkboard-teacher"></i>THE Excellence GROUP</a>
+
+<nav class="navbar">
+    <ul>
+        <li><a href="#home" class="active">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#teacher">teacher</a></li>
+        <li><a href="#course">course</a></li>
+        <li><a href="#review">review</a></li>
+        <li><a href="contact.html">contact</a></li>
+    </ul>
 </nav>
 
-<div class="header-box">
+<div class="fas fa-bars"></div>
 
-<div class="header-text-box">
-
-<h1>
-THE Excellence GROUP
-</h1>
-
-<h2>
-    Excellence for all
-</h2>
-
-</div>
-<a href="https://www.facebook.com/groups/119252206730614" class="btn btn-full" target="_blank">Click here And Join With Us</a>
-
-</div>
 </header>
 
+<!-- header section ends -->
 
 
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+<div class="content">
+    <h1>learn new skills from our group </h1>
+    <p>Learn new skills in low price . There are multiple courses available in our group. We also provide notes with the courses</p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfqkBzjYwFM8XGkI4jkkMOxGIjbEIQLdy42NkWYYDFsGmUoCA/closedform"><button>Join Us</button></a>
+</div>
+
+<div class="box-container">
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfqkBzjYwFM8XGkI4jkkMOxGIjbEIQLdy42NkWYYDFsGmUoCA/closedform">
+    <div class="box">
+      
+        <i class='fas fa-laptop-code'></i>
+        <h3>online courses</h3>
+        <p>click here and enroll yourself for our courses</p>
+
+    </div>
+</a>
+    <div class="box">
+        
+        <i class="fas fa-sticky-note"></i>
+        <h3>Notes</h3>
+        <p>click here to get our notes </p>
+
+    </div>
+
+    <div class="box">
+        <i class='fas fa-project-diagram'></i>
+        <h3>Projects</h3>
+        <p>click here to get source code of projects while learning courses </p>
+    </div>
+
+</div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+
+<section class="about" id="about">
+
+<h1 class="heading">about us</h1>
+<h3 class="title">Start your jorney with us</h3>
+
+<div class="row">
+
+    <div class="content">
+        <h3>start your journey with us  </h3>
+        <p>We provide you best quality content with notes , doubt clearing sessions , extra classes. Weekly quiz contest and participation certificates are also there. And we provide a special certificate to the best five students.</p>
+        <a href="#"><button>learn more</button></a>
+    </div>
+
+    <div class="image">
+        <img src="logo.jpg" alt="">
+    </div>
+
+</div>
+
+</section>
+
+
+<!-- about section ends -->
+
+<!-- teacher section starts  -->
+
+<section id="teacher" class="teacher">
+
+<h1 class="heading">our teacher</h1>
+<h3 class="title">meet our trainers</h3>
+
+<div class="card-container">
+
+    <div class="card">
+        <img src="debojyoti.jpg" alt="">
+        <h3>Debajyoti Dutta</h3>
+        <p>C/C++ || IOT & Robotics || Python</p>
+        <div class="icons">
+        <a href="https://www.facebook.com/debajyoti.dutta.3998" class="fab fa-facebook-f"></a>
+        <a href="https://twitter.com/Debajyo65173245?s=08" class="fab fa-twitter"></a>
+        <a href="https://github.com/Debajyoti2000" class="fab fa-github"></a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="kousik.jpg" alt="">
+        <h3>Kousik Nandi</h3>
+        <p>C/C++ || Web Development || Digital Marketing</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/kousik.nandi.758" class="fab fa-facebook-f"></a>
+            <a href="https://www.linkedin.com/in/kousik-nandi-a65202191" class="fab fa-linkedin"></a>
+            <a href="https://www.instagram.com/kousik6630/" class="fab fa-instagram"></a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="suvadeep.jpg" alt="">
+        <h3>Suvadeep Maity</h3>
+        <p>C/C++ || Full Stack Web Developer || Core Java</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/profile.php?id=100055852188607" class="fab fa-facebook-f"></a>
+            <a href="https://www.linkedin.com/in/suvadeep-maity-392a881a7/" class="fab fa-linkedin"></a>
+            <a href="https://github.com/AndrewSuv" class="fab fa-github"></a>
+        </div>
+    </div>
+
+    </div>
+
+</div>
+
+
+</section>
+
+<!-- teacher section ends -->
+
+<!-- course section starts  -->
+
+<section id="course" class="course">
+
+<h1 class="heading">our courses</h1>
+<h3 class="title">upgrade your skills with newest courses</h3>
+
+
+<div class="box-container">
+
+    <div class="box">
+        <i class="fas fa-code"></i>
+        <h3>web development</h3>
+        <p>Learn front end web development with notes.</p>
+        <p>price : &#8377; 300</p>
+    </div>
+
+    <div class="box">
+       <i class='fas fa-laptop'></i>
+        <h3>programming</h3>
+        <p>Learn c and c++ programming with notes </p>
+        <p>price : &#8377; 300</p>
+    </div>
+
+    <div class="box">
+        <i class='fas fa-desktop'></i>
+        <h3>Data Structure and Algorithms </h3>
+        <p>Learn DS and algo with notes</p>
+         <p>price : &#8377; 300</p>
+    </div>
+
+</div>
+
+</section>
+
+<!-- course section ends -->
+
+<!-- review section starts  -->
+
+<section id="review" class="review">
+
+<h1 class="heading">students review</h1>
+<h3 class="title">what our students says about us</h3>
+
+<div class="box-container">
+
+    <div class="box">
+        <img src="images/dipayan.jpg" alt="">
+        <h3>Dipayan Das </h3>
+        <p>Very good journey and learn many new things thanks to all</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/Tarique.jpg" alt="">
+        <h3>Syed Tarique Abedin</h3>
+        <p>It's very helpful for me ...as I didn't know anything about c language but after all classes I can say that I have a basic knowledge about c programming ...so it's really helpful for me ...thanks to all dada of the excellence group ...thanks a lot </p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/Shimul.jpg" alt="">
+        <h3>Shimul Sarkar</h3>
+        <p>C and C++ both of course were greatfull to me.</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+    </div>
+
+<div class="box">
+        <img src="images/Nilanjana.jpg" alt="">
+        <h3>Nilanjana Dey</h3>
+        <p>It was good </p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+    </div>
+
+<div class="box">
+        <img src="images/niraj.jpg" alt="">
+        <h3>NIRAJ KUMAR</h3>
+        <p>I hadn't known any programming language before joining THE Excellence GROUP(TEG). Team TEG helped me a lot in learning C language with their efforts in class,assignment as well as in taking test weekly.I love the 30 days code challenge the most.The best thing of TEG is that they provide all these things in free of cost.MY mentor was SUVADEEP MAITY BHAIYA.He was very polite and always ready to solve our doubts.All the content was covered timely. Team TEG was always ready to solve the questions even after the class.
+        I want to thank team TEG for their efforts.</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+    </div>
+
+<div class="box">
+        <img src="images/ISHA.jpg" alt="">
+        <h3>ISHA GOSWAMI</h3>
+        <p>Being a novice in programming, Excellence Group helped me a lot in building my coding skills from tge very basics itself. The mentors here are very helpful and was always ready to help us. Moreover the study materials was very precise and easily understandable.😀</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+<!-- review section ends -->
+
+<section class="footer">
+
+<div class="icons">
+    <a href="https://www.facebook.com/groups/119252206730614" class="fab fa-facebook-f"></a>
+    <a href="https://www.linkedin.com/in/the-excellence-group-499549202/" class="fab fa-linkedin"></a>
+    <a href="https://github.com/AndrewSuv" class="fab fa-github"></a>
+</div>
+
+<div class="credit">created by <span>@theexcellencegroup</span> | all rights reserved.</div>
+
+</section>
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/main.js"></script>
+
+    
 </body>
 </html>
